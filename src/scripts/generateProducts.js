@@ -6,11 +6,11 @@ const generateProducts = async (number) => {
   const readProducts = await fs.readFile(PATH_DB, 'utf-8');
   const productsList = JSON.parse(readProducts);
 
-  const newProduct = Array(number).fill(0).map(createFakeProduct);
+  const newProducts = Array(number).fill(0).map(createFakeProduct);
 
   await fs.writeFile(
     PATH_DB,
-    JSON.stringify([...productsList, ...newProduct], null, 2),
+    JSON.stringify([...productsList, ...newProducts], null, 2),
     'utf-8',
   );
 };
