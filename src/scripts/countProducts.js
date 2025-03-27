@@ -1,9 +1,10 @@
-import { PATH_DB } from '../constants/products.js';
-import fs from 'node:fs/promises';
+import { readProduct } from '../utils/readProduct.js';
 
 const countProducts = async () => {
-  const readProducts = await fs.readFile(PATH_DB, 'utf-8');
-  console.log(JSON.parse(readProducts).length);
+  const productsList = await readProduct();
+  console.log(productsList.length);
 };
 
 countProducts();
+
+// npm run count

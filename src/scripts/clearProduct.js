@@ -1,8 +1,9 @@
-import { PATH_DB } from '../constants/products.js';
-import fs from 'node:fs/promises';
+import { writeProduct } from '../utils/writeProduct.js';
 
 const clearProduct = async () => {
-  await fs.writeFile(PATH_DB, JSON.stringify([]), 'utf-8');
+  await writeProduct([]);
 };
 
 clearProduct();
+
+// npm run clear
