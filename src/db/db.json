@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Fresh Steel Towels",
+    "price": "15.09",
+    "category": "Movies",
+    "description": "Discover the unique new Bacon with an exciting mix of Silk ingredients"
+  },
+  {
+    "name": "Bespoke Gold Mouse",
+    "price": "797.49",
+    "category": "Beauty",
+    "description": "Discover the strange new Pizza with an exciting mix of Cotton ingredients"
+  },
+  {
+    "name": "Unbranded Concrete Hat",
+    "price": "814.99",
+    "category": "Outdoors",
+    "description": "Stylish Gloves designed to make you stand out with lucky looks"
+  },
+  {
+    "name": "Practical Marble Pants",
+    "price": "817.65",
+    "category": "Jewelry",
+    "description": "The sky blue Fish combines Botswana aesthetics with Zinc-based durability"
+  },
+  {
+    "name": "Handmade Metal Car",
+    "price": "699.59",
+    "category": "Games",
+    "description": "The white Tuna combines Macao aesthetics with Nobelium-based durability"
+  },
+  {
+    "name": "Practical Metal Chair",
+    "price": "967.49",
+    "category": "Automotive",
+    "description": "Stylish Salad designed to make you stand out with gaseous looks"
+  }
+]
