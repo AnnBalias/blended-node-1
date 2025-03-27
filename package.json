@@ -10,7 +10,8 @@
     "add-one": "node src/scripts/addOneProduct.js",
     "get-all": "node src/scripts/getAllProducts.js",
     "count": "node src/scripts/countProducts.js",
-    "clear": "node src/scripts/clearProduct.js"
+    "clear": "node src/scripts/clearProduct.js",
+    "remove-random": "node src/scripts/removeRandomProduct.js"
   },
   "repository": {
     "type": "git",
